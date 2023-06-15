@@ -4,3 +4,10 @@ String? validaCampoVazio(String? value) {
   }
   return null;
 }
+
+String? validaCampoSelect(String? value) {
+  if (value == "Selecione") {
+    return "Valor invalído";
+  }
+  return null;
+}
