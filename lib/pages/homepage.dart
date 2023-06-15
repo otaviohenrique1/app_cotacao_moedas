@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
     'Dolar Americano',
   ];
 
-  double moeda = 0;
+  double resultado = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
               style: Theme.of(context).textTheme.bodyMedium,
             ),
             subtitle: Text(
-              moeda.toString(),
+              resultado.toString(),
               style: Theme.of(context).textTheme.bodyLarge,
               textAlign: TextAlign.right,
             ),
